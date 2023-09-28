@@ -8,7 +8,7 @@ function Header(props) {
         X: {props.wins.xWins}
         </h2>
       <h2>
-        Turn : {props.turn}
+        Turn : <span className='turn'>{props.turn}</span>
         </h2>
       <h2>
         O: {props.wins.oWins}

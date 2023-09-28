@@ -9,3 +9,11 @@
     margin-top: 100px;
     margin-bottom: 20px;
 }
+.turn{
+    color: red;
+}
+@media screen and (max-width :678px) {
+    .header{
+        width: 200px;
+    }
+}
